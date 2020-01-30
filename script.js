@@ -28,3 +28,7 @@ document.addEventListener ("click", async function (e) {
             modal.style.display = "none"
             screen.style.display = "none"
         })
+
+
+const navMenu = document.querySelector("#nav-menu")
+const modalContent = document.querySelector("#modal-content")
