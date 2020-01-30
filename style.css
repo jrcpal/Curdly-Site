@@ -203,8 +203,8 @@ p {
 
   #copyright {
       position: relative;
-      left: 43%;
-      top:80px; 
+      text-align: center;
+      top: 80px; 
       color: whitesmoke;
   } 
 
