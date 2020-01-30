@@ -1,9 +1,9 @@
+// mobile phone media 
 // display description upon click / hover
 // hamburger menu
-// nav animation (https://codepen.io/EvyatarDa/pen/waKXMd)
-
-// mobile phone media 
 //desktop: center footer text 
+
+
 
 
 //notes
