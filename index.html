@@ -11,6 +11,8 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+    <div id="screen"></div>
+
     <!-- NAV -->
     <div class="container">
         <h1 class="logo">Curdly</h1>
@@ -55,24 +57,65 @@
     <!-- PRODUCTS -->
     <!-- (Use event listener js for popup modal style) -->
     <section class="product-grid">
+
+        <div class="product1">
         <div id="product">
         <img src="https://res.cloudinary.com/roastcollective/image/upload/v1580413408/cowcurd_ejl47p.png" alt="">
         <h3>Cow Curd</h3>
         <p>$4.99</p>
         </div>
+        </div>
 
+        <div class="product2">
         <div id="product">
         <img src="https://res.cloudinary.com/roastcollective/image/upload/v1580413410/camelcurd_xw8abo.png" alt="">
         <h3>Camel Curd</h3>
         <p>$16.99</p>
         </div>
+        </div>
 
+        <div class="product3">
         <div id="product">
         <img src="https://res.cloudinary.com/roastcollective/image/upload/v1580413415/tigercurd_zcfwde.png" alt="">
         <h3>Tiger Curd</h3>
         <p>$2,399</p>
         </div>
+        </div>
+
     </section>
+
+    <!--product modals-->
+    <div id="modals">
+    <div id="modal1">
+        <h3>Product Details</h3>
+        <p id="exit1">X</p>
+        <hr>
+        <h3>Organic Cow Curd</h3>
+        <p>Made from organically fed cows, this curd milk provides a punch of nutrients and the taste you love.</p>
+        <p>Nutritional Facts: 100% curd from cow milk. 24 grams of protein.</p>
+        <p><i>Cow curd, cow curd, when I don't have you I feel absurd. So every morning with my tea, I drink some cow curd, fresh from Curdly!</i></p>
+    </div>
+
+    <div id="modal2">
+        <h3>Product Details</h3>
+        <p id="exit2">X</p>
+        <hr>
+        <h3>Organic Camel Curd</h3>
+        <p>Made from organically fed camels, this curd milk quenches thirst enough to make it through that desert.</p>
+        <p>Nutritional Facts: 100% curd from camel milk. 17 grams of protein.</p>
+        <p><i>Don't need it to be Hump Day to ride that camel curd.</i></p>
+    </div>
+
+    <div id="modal3">
+        <h3>Product Details</h3>
+        <p id="exit3">X</p>
+        <hr>
+        <h3>Organic Tiger Curd</h3>
+        <p>Made from tigers fed by human meat, this curd milk provides a surge of energy and sense of fierceness.</p>
+        <p>Nutritional Facts: 100% curd from tiger milk. 714 grams of protein. Humans were harmed in the making of this product.</p>
+        <p><i>ROAR, mother f*ckers.</i></p>
+    </div>
+    </div>
 
     <!-- ABOUT US -->
     <div class="about-us">

@@ -1,34 +1,45 @@
 
-const modal = document.querySelector("#modal")
-const modalContent = document.querySelector("#modal-content")
+const modals = document.querySelector("#modals")
+const product1 = document.querySelector(".product1")
+const modal1 = document.querySelector("#modal1")
+const exit1 = document.querySelector("#exit1")
+
+const product2 = document.querySelector(".product2")
+const modal2 = document.querySelector("#modal2")
+const exit2 = document.querySelector("#exit2")
+
+const product3 = document.querySelector(".product3")
+const modal3 = document.querySelector("#modal3")
+const exit3 = document.querySelector("#exit3")
+
 
 const exit = document.querySelector("#exit")
-const screen = document.querySelector("#screen")
 
-document.addEventListener ("click", async function (e) {
-    const element = e.target.parentElement
-        modal.style.display = "block"
-        screen.style.display = "block"
-        const movieId = element.id
-        const response = await axios.get(`http://www.omdbapi.com/?apikey=${apiKey}&i=${movieId}`)
-        const movie = response.data 
-        modalContent.innerHTML =
-        `<h3>${movie.Title} - ${movie.Year}</h3>
-        <p>Directed by: ${movie.Director}</p>
-        <p>Starring: ${movie.Actors}</p>
-        <p><i>${movie.Plot}</i></p>
-        <button id=${movie.imdbID} class="favorite">Add Favorite</button>`}
+product1.addEventListener ("click",  function () {
+    modal1.style.display = "block"
+})
+product2.addEventListener ("click",  function () {
+    modal2.style.display = "block"
+})
+product3.addEventListener ("click",  function () {
+    modal3.style.display = "block"
+})
 
-        exit.addEventListener("click", function () {
-            modal.style.display = "none"
-            screen.style.display = "none"
-        })
+exit1.addEventListener ("click",  function () {
+    modal1.style.display = "none";
+    console.log("clicked")
+})
+
+exit2.addEventListener ("click",  function () {
+    modal2.style.display = "none";
+    console.log("clicked")
+})
+
+exit3.addEventListener ("click",  function () {
+    modal3.style.display = "none";
+    console.log("clicked")
+})
         
-        screen.addEventListener("click", function () {
-            modal.style.display = "none"
-            screen.style.display = "none"
-        })
 
-
-const navMenu = document.querySelector("#nav-menu")
-const modalContent = document.querySelector("#modal-content")
+// const navMenu = document.querySelector("#nav-menu")
+// const modalContent = document.querySelector("#modal-content")

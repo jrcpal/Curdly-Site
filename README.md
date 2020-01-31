@@ -1,7 +1,7 @@
-// mobile phone media 
+
 // display description upon click / hover
 // hamburger menu
-//desktop: center footer text 
+
 
 
 
