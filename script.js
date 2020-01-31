@@ -13,14 +13,13 @@ const modal3 = document.querySelector("#modal3")
 const exit3 = document.querySelector("#exit3")
 
 
-const exit = document.querySelector("#exit")
-
 product1.addEventListener ("click",  function () {
     modal1.style.display = "block"
 })
 product2.addEventListener ("click",  function () {
     modal2.style.display = "block"
 })
+
 product3.addEventListener ("click",  function () {
     modal3.style.display = "block"
 })
@@ -40,6 +39,3 @@ exit3.addEventListener ("click",  function () {
     console.log("clicked")
 })
         
-
-// const navMenu = document.querySelector("#nav-menu")
-// const modalContent = document.querySelector("#modal-content")
